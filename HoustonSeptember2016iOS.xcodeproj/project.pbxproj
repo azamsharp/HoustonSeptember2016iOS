@@ -81,6 +81,7 @@
 		3441D8771D998E930045A32B /* Week 1 */ = {
 			isa = PBXGroup;
 			children = (
+				3452611D1D9AB9DB007DECE5 /* DataTypes-Methods */,
 				3441D8781D998EAB0045A32B /* IBOutletsAndActions */,
 			);
 			name = "Week 1";
@@ -89,10 +90,17 @@
 		3441D8781D998EAB0045A32B /* IBOutletsAndActions */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			name = IBOutletsAndActions;
+			sourceTree = "<group>";
+		};
+		3452611D1D9AB9DB007DECE5 /* DataTypes-Methods */ = {
+			isa = PBXGroup;
+			children = (
 				3441D8661D997A9B0045A32B /* ViewController.h */,
 				3441D8671D997A9B0045A32B /* ViewController.m */,
 			);
-			name = IBOutletsAndActions;
+			name = "DataTypes-Methods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +336,7 @@
 				3441D8761D997A9B0045A32B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
