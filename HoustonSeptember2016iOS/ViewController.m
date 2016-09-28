@@ -35,6 +35,13 @@
     
     [self calculateAge:@"03/34/2010" personsHeight:5.34];
     
+    NSString *name = @"John";
+    
+    NSString *anotherName = @"JohnDoe";
+    
+    name = anotherName;
+    
+    
    // [self add:<#(int)#> number2:<#(int)#> friendlyNumber3:<#(int)#>]
 }
 
@@ -84,11 +91,18 @@
 
 -(IBAction) anotherButtonPressed {
     
+    // Write some code to get the email addresses
+    // write some code to attach emails
+    // write some code to send emails
    
 }
 
 -(IBAction) submitButtonPressed {
    
+    // Write some code to get the email addresses
+    // write some code to attach emails
+    // write some code to send emails
+    
     NSString *someString = @"";
     
     count = 50; 
