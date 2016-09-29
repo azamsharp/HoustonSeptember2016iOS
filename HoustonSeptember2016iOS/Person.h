@@ -13,6 +13,10 @@
 @property (nonatomic,copy) NSString *firstName;
 @property (nonatomic,copy) NSString *lastName;
 
+-(void) walk;
+-(void) topSecretMethod; 
+
+
 -(Person *) initWithName:(NSString *) firstName lastName:(NSString *) lastName;
 
 @end

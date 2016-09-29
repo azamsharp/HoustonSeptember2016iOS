@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Car View Controller-->
+        <!--Collections Control Flow View Controller-->
         <scene sceneID="gdc-iB-rYc">
             <objects>
-                <viewController id="q0R-Xt-IgH" customClass="CarViewController" sceneMemberID="viewController">
+                <viewController id="q0R-Xt-IgH" customClass="CollectionsControlFlowViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rti-1z-NC7"/>
                         <viewControllerLayoutGuide type="bottom" id="pRn-oH-U3k"/>
@@ -18,12 +18,57 @@
                     <view key="view" contentMode="scaleToFill" id="ZkB-R4-FcT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPg-dQ-O7M">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1RT-eg-N98">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcw-1Q-8BG">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="CzS-mQ-0Qv"/>
+                                </constraints>
+                                <state key="normal" title="Verify"/>
+                                <connections>
+                                    <action selector="verifyButtonPressed" destination="q0R-Xt-IgH" eventType="touchUpInside" id="Oj4-fv-feA"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="75" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="09T-JZ-Jup">
+                                <color key="tintColor" red="1" green="0.44070460560000002" blue="0.89761599430000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="sliderValueChanged" destination="q0R-Xt-IgH" eventType="valueChanged" id="RlW-vv-r9c"/>
+                                </connections>
+                            </slider>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wcw-1Q-8BG" firstAttribute="top" secondItem="HPg-dQ-O7M" secondAttribute="bottom" constant="8" symbolic="YES" id="4Lg-76-kim"/>
+                            <constraint firstItem="09T-JZ-Jup" firstAttribute="top" secondItem="rti-1z-NC7" secondAttribute="bottom" constant="103" id="9cL-T3-nan"/>
+                            <constraint firstItem="HPg-dQ-O7M" firstAttribute="leading" secondItem="ZkB-R4-FcT" secondAttribute="leadingMargin" id="ATb-em-S7z"/>
+                            <constraint firstItem="wcw-1Q-8BG" firstAttribute="centerX" secondItem="HPg-dQ-O7M" secondAttribute="centerX" id="Ayj-Hc-dEg"/>
+                            <constraint firstItem="1RT-eg-N98" firstAttribute="trailing" secondItem="HPg-dQ-O7M" secondAttribute="trailing" id="DL6-dK-YIb"/>
+                            <constraint firstItem="09T-JZ-Jup" firstAttribute="leading" secondItem="1RT-eg-N98" secondAttribute="leading" id="HAl-yv-U59"/>
+                            <constraint firstItem="HPg-dQ-O7M" firstAttribute="top" secondItem="1RT-eg-N98" secondAttribute="bottom" constant="8" symbolic="YES" id="b1t-Xd-v64"/>
+                            <constraint firstItem="09T-JZ-Jup" firstAttribute="trailing" secondItem="1RT-eg-N98" secondAttribute="trailing" id="cpC-hB-4FP"/>
+                            <constraint firstItem="HPg-dQ-O7M" firstAttribute="centerY" secondItem="ZkB-R4-FcT" secondAttribute="centerY" id="h9p-m1-txK"/>
+                            <constraint firstItem="HPg-dQ-O7M" firstAttribute="trailing" secondItem="ZkB-R4-FcT" secondAttribute="trailingMargin" id="iQR-UT-84G"/>
+                            <constraint firstItem="1RT-eg-N98" firstAttribute="leading" secondItem="HPg-dQ-O7M" secondAttribute="leading" id="in4-TG-juK"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="1RT-eg-N98" id="Le0-P7-MFI"/>
+                        <outlet property="messagesLabel" destination="HPg-dQ-O7M" id="aWB-KO-jkg"/>
+                        <outlet property="mySlider" destination="09T-JZ-Jup" id="Rcg-3J-snb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tb4-Dr-bvZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1174" y="-189"/>
+            <point key="canvasLocation" x="-1242.4000000000001" y="-140.77961019490255"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">

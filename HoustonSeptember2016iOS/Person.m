@@ -19,5 +19,14 @@
     return self;
 }
 
+-(void) walk {
+    
+}
+
+
+-(void) topSecretMethod {
+    
+}
+
 
 @end

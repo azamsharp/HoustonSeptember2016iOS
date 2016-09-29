@@ -17,6 +17,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSString *inputString = @"madam";
+    
+    for(int i=0; i<= inputString.length;i++) {
+        
+        char c = [inputString characterAtIndex:i];
+        
+        if(c == 'm') {
+            //NSLog(@"m found");
+        }
+        
+        NSLog(@"%c",c);
+    }
+    
+    
+    Car *car = [[Car alloc] init];
+    car.make = @"sss";
+    
     Person *person = [[Person alloc] initWithName:@"John" lastName:@"Doe"];
     
     Person *person2 = [[Person alloc] init];
