@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="q0R-Xt-IgH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZJN-mk-TAl">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -7,6 +7,51 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Palindrom Review View Controller-->
+        <scene sceneID="4FE-Ni-Y9A">
+            <objects>
+                <viewController id="ZJN-mk-TAl" customClass="PalindromReviewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HTY-XS-AAB"/>
+                        <viewControllerLayoutGuide type="bottom" id="JgC-hI-ThM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R5B-vQ-JLR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xDo-B3-nHe">
+                                <segments>
+                                    <segment title="Celsius"/>
+                                    <segment title="Fahrenheit"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlValueChanged:" destination="ZJN-mk-TAl" eventType="valueChanged" id="fQP-tc-3pD"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="72" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRe-9J-KW2">
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="8Pk-66-72t">
+                                <frame key="frameInset" minX="14" minY="505" width="347" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.44070460560000002" blue="0.89761599430000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xDo-B3-nHe" firstAttribute="top" secondItem="HTY-XS-AAB" secondAttribute="bottom" constant="8" symbolic="YES" id="39k-Wy-CTz"/>
+                            <constraint firstItem="mRe-9J-KW2" firstAttribute="centerX" secondItem="R5B-vQ-JLR" secondAttribute="centerX" id="9Zl-cv-bQQ"/>
+                            <constraint firstItem="mRe-9J-KW2" firstAttribute="centerX" secondItem="xDo-B3-nHe" secondAttribute="centerX" id="ZOi-UG-hqk"/>
+                            <constraint firstItem="mRe-9J-KW2" firstAttribute="centerY" secondItem="R5B-vQ-JLR" secondAttribute="centerY" id="yLZ-Zh-o21"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WPF-zk-CYs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2834.4000000000001" y="-141.67916041979012"/>
+        </scene>
         <!--Collections Control Flow View Controller-->
         <scene sceneID="gdc-iB-rYc">
             <objects>
@@ -68,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tb4-Dr-bvZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1242.4000000000001" y="-140.77961019490255"/>
+            <point key="canvasLocation" x="-1519" y="-173"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
