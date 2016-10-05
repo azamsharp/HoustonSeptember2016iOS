@@ -28,13 +28,9 @@
 
 -(void) randomColor:(UIColor *) color {
     
-    
-    
     self.nameTextField.backgroundColor = color;
     
     // set the color to the background of the main/root view
-    
-    
 }
 
 -(BOOL) textFieldShouldReturn:(UITextField *)textField {
