@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="m1z-O2-KD8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z3C-AV-AS1">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -41,12 +41,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="V7Z-rS-d2G">
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="m1z-O2-KD8" eventType="valueChanged" id="bwj-Bm-VG5"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="0.94117647059999998" green="0.58039215690000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="V7Z-rS-d2G" firstAttribute="trailing" secondItem="ybI-yy-2T2" secondAttribute="trailing" id="2M6-i5-73M"/>
                             <constraint firstItem="lx6-eq-RX6" firstAttribute="top" secondItem="ybI-yy-2T2" secondAttribute="bottom" constant="8" symbolic="YES" id="8fP-sf-Dfg"/>
                             <constraint firstItem="ybI-yy-2T2" firstAttribute="leading" secondItem="N1N-3h-mgk" secondAttribute="leadingMargin" id="CR8-dI-uNe"/>
                             <constraint firstItem="ybI-yy-2T2" firstAttribute="trailing" secondItem="N1N-3h-mgk" secondAttribute="trailingMargin" id="XX7-CT-yks"/>
+                            <constraint firstItem="hAX-rm-bhI" firstAttribute="top" secondItem="V7Z-rS-d2G" secondAttribute="bottom" constant="47" id="aua-Rn-M5w"/>
+                            <constraint firstItem="V7Z-rS-d2G" firstAttribute="leading" secondItem="ybI-yy-2T2" secondAttribute="leading" id="fu3-lU-UPW"/>
                             <constraint firstItem="lii-TD-MOF" firstAttribute="centerX" secondItem="hAX-rm-bhI" secondAttribute="centerX" id="g10-Fu-e08"/>
                             <constraint firstItem="lii-TD-MOF" firstAttribute="leading" secondItem="N1N-3h-mgk" secondAttribute="leading" constant="131" id="upq-eQ-qpZ"/>
                             <constraint firstItem="lii-TD-MOF" firstAttribute="top" secondItem="yPe-yb-OdW" secondAttribute="bottom" constant="94" id="ut7-Ve-dhe"/>
@@ -60,7 +68,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J56-tb-mGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4426.3999999999996" y="-338.68065967016497"/>
+            <point key="canvasLocation" x="-4768.8000000000002" y="-371.06446776611699"/>
+        </scene>
+        <!--Animal View Controller-->
+        <scene sceneID="Vs0-Jx-Rqz">
+            <objects>
+                <viewController id="z3C-AV-AS1" customClass="AnimalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XHV-Ju-lQd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Unz-ie-Dif"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rur-fO-OqY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VNc-9q-Xrq">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="z3C-AV-AS1" id="JuS-pl-ecj"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.58039215690000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VNc-9q-Xrq" firstAttribute="top" secondItem="XHV-Ju-lQd" secondAttribute="bottom" constant="8" symbolic="YES" id="qFa-FQ-aTX"/>
+                            <constraint firstItem="VNc-9q-Xrq" firstAttribute="trailing" secondItem="rur-fO-OqY" secondAttribute="trailingMargin" id="vg0-bu-GCi"/>
+                            <constraint firstItem="VNc-9q-Xrq" firstAttribute="leading" secondItem="rur-fO-OqY" secondAttribute="leadingMargin" id="xfn-SO-qcE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="VNc-9q-Xrq" id="HFX-XP-52Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0RD-Fv-OXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3596" y="-193.85307346326837"/>
         </scene>
         <!--Palindrom Review View Controller-->
         <scene sceneID="4FE-Ni-Y9A">
@@ -105,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WPF-zk-CYs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2834.4000000000001" y="-141.67916041979012"/>
+            <point key="canvasLocation" x="-2607" y="-242"/>
         </scene>
         <!--Collections Control Flow View Controller-->
         <scene sceneID="gdc-iB-rYc">

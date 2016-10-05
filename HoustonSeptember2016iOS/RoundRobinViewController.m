@@ -8,7 +8,6 @@
 
 #import "RoundRobinViewController.h"
 
-
 @interface RoundRobinViewController ()
 
 @end
@@ -17,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,8 +23,14 @@
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction)recipeButtonPressed:(id)sender {
+-(IBAction) sliderValueChanged:(id) sender {
     
+    UISlider *slider = (UISlider *) sender;
+    
+    self.foodLabel.text = [NSString stringWithFormat:@"%f",slider.value];
+}
+
+-(IBAction)recipeButtonPressed:(id)sender {
     
     Reciple *recipe = [[Reciple alloc] init];
     recipe.title = self.foodText.text;
