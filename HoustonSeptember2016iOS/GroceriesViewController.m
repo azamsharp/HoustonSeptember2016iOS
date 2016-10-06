@@ -18,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    tasks = [NSMutableArray array];
+    
+    Task *task1 = [[Task alloc] init];
+    task1.title = @"Clean the dishes";
+    
+    [tasks addObject:task1];
+    
     groceries = [NSMutableArray arrayWithObjects:@"Cookies",@"Chips",@"Soda",@"Milk",@"Cereal",@"Paper Clips",@"Paper",@"Noodles",@"Cream", nil];
     
     // assigning the delegates and datasource

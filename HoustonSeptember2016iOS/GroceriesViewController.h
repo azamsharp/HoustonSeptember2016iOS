@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Task.h"
 
 @interface GroceriesViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 {
-    NSMutableArray *groceries; 
+    NSMutableArray *groceries;
+    
+    NSMutableArray *tasks; 
 }
 
 @property (nonatomic,weak) IBOutlet UITableView *tableView; 
