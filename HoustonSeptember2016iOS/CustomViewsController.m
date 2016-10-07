@@ -16,12 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    StepperView *stepperView = [[StepperView alloc] initWithFrame:CGRectMake(50, 100, 300, 60)];
+    stepperView.delegate = self;
+    stepperView.backgroundColor = [UIColor greenColor];
     
-    SwitchView *switchView = [[SwitchView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    switchView.backgroundColor = [UIColor greenColor];
-    switchView.delegate = self; // this means that the ViewController will be listening to the events
+    [self.view addSubview:stepperView];
     
-    [self.view addSubview:switchView];
+    
+//    SwitchView *switchView = [[SwitchView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    switchView.backgroundColor = [UIColor greenColor];
+//    switchView.delegate = self; // this means that the ViewController will be listening to the events
+//    
+//    [self.view addSubview:switchView];
     
 //    UIView *blueView = [[UIView alloc] init];
 //    
@@ -42,6 +49,12 @@
 //    redView.backgroundColor = [UIColor redColor];
 //    
 //    [blueView addSubview:redView];
+    
+}
+
+-(void) stepperViewDidValueChanged:(int)value {
+    
+    self.outputLabel.text = [NSString stringWithFormat:@"%d",value];
     
 }
 

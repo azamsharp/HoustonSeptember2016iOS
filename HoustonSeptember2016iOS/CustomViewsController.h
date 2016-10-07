@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "SwitchView.h" 
+#import "StepperView.h" 
 
-@interface CustomViewsController : UIViewController<SwitchViewDelegate>
+@interface CustomViewsController : UIViewController<SwitchViewDelegate,StepperViewDelegate>
 {
     
 }

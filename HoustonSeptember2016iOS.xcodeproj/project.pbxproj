@@ -38,6 +38,8 @@
 		34970E721DA57F90007418F6 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 34970E711DA57F90007418F6 /* Task.m */; };
 		34C639981DA6A8A00001D8BF /* CustomViewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C639971DA6A8A00001D8BF /* CustomViewsController.m */; };
 		34C6399B1DA6B1580001D8BF /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C6399A1DA6B1580001D8BF /* SwitchView.m */; };
+		34FD8C761DA807C900D2E43B /* StepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD8C751DA807C900D2E43B /* StepperView.m */; };
+		34FD8C7A1DA80F9A00D2E43B /* GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD8C791DA80F9A00D2E43B /* GesturesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +102,10 @@
 		34C639971DA6A8A00001D8BF /* CustomViewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewsController.m; sourceTree = "<group>"; };
 		34C639991DA6B1580001D8BF /* SwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
 		34C6399A1DA6B1580001D8BF /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		34FD8C741DA807C900D2E43B /* StepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperView.h; sourceTree = "<group>"; };
+		34FD8C751DA807C900D2E43B /* StepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperView.m; sourceTree = "<group>"; };
+		34FD8C781DA80F9A00D2E43B /* GesturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturesViewController.h; sourceTree = "<group>"; };
+		34FD8C791DA80F9A00D2E43B /* GesturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +236,7 @@
 		345F75FE1DA2AEBF00AA7D13 /* Week 2 */ = {
 			isa = PBXGroup;
 			children = (
+				34FD8C771DA80F7C00D2E43B /* Gestures-Animations */,
 				34C639951DA6A60C0001D8BF /* Custom-Views */,
 				34097F121DA53EB400872F6C /* TableView-And-CollectionView */,
 				34097EC81DA31D8700872F6C /* DelegatesAndProtocols */,
@@ -286,8 +293,19 @@
 				34C639971DA6A8A00001D8BF /* CustomViewsController.m */,
 				34C639991DA6B1580001D8BF /* SwitchView.h */,
 				34C6399A1DA6B1580001D8BF /* SwitchView.m */,
+				34FD8C741DA807C900D2E43B /* StepperView.h */,
+				34FD8C751DA807C900D2E43B /* StepperView.m */,
 			);
 			name = "Custom-Views";
+			sourceTree = "<group>";
+		};
+		34FD8C771DA80F7C00D2E43B /* Gestures-Animations */ = {
+			isa = PBXGroup;
+			children = (
+				34FD8C781DA80F9A00D2E43B /* GesturesViewController.h */,
+				34FD8C791DA80F9A00D2E43B /* GesturesViewController.m */,
+			);
+			name = "Gestures-Animations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +387,7 @@
 				344B88681D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.m in Sources */,
 				348F7C9B1D9C1657007E5E30 /* CarViewController.m in Sources */,
 				345F75FD1DA2AA5700AA7D13 /* Palindrome.m in Sources */,
+				34FD8C761DA807C900D2E43B /* StepperView.m in Sources */,
 				34097F0D1DA401B600872F6C /* Pelican.m in Sources */,
 				348F7CA11D9C2AFC007E5E30 /* Person.m in Sources */,
 				34097F1D1DA55A5300872F6C /* MyCollectionViewController.m in Sources */,
@@ -387,6 +406,7 @@
 				345F76011DA2AED500AA7D13 /* RoundRobinViewController.m in Sources */,
 				34C639981DA6A8A00001D8BF /* CustomViewsController.m in Sources */,
 				34097F0A1DA4017800872F6C /* Bird.m in Sources */,
+				34FD8C7A1DA80F9A00D2E43B /* GesturesViewController.m in Sources */,
 				34097F011DA3F9E100872F6C /* Animal.m in Sources */,
 				3441D8621D997A9B0045A32B /* main.m in Sources */,
 				348A649C1DA2C097006A43C9 /* Incrediant.m in Sources */,
