@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "SwitchView.h" 
 #import "StepperView.h" 
+#import "GesturesViewController.h"
 
 @interface CustomViewsController : UIViewController<SwitchViewDelegate,StepperViewDelegate>
 {

@@ -15,6 +15,11 @@
 		34097F181DA54A6500872F6C /* GroceriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34097F171DA54A6500872F6C /* GroceriesViewController.m */; };
 		34097F1A1DA5502400872F6C /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34097F191DA5502400872F6C /* cat1.jpg */; };
 		34097F1D1DA55A5300872F6C /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34097F1C1DA55A5300872F6C /* MyCollectionViewController.m */; };
+		34343C3F1DABDD3E00C64729 /* NotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34343C3E1DABDD3E00C64729 /* NotificationView.m */; };
+		34343C421DABECC000C64729 /* ShoppingListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34343C411DABECC000C64729 /* ShoppingListTableViewController.m */; };
+		34343C451DABEEA200C64729 /* ShoppingItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34343C441DABEEA200C64729 /* ShoppingItemTableViewController.m */; };
+		34343C481DABF6C000C64729 /* ShoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 34343C471DABF6C000C64729 /* ShoppingList.m */; };
+		34343C4B1DABF80F00C64729 /* ShoppingListDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34343C4A1DABF80F00C64729 /* ShoppingListDetailsViewController.m */; };
 		3441D8621D997A9B0045A32B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441D8611D997A9B0045A32B /* main.m */; };
 		3441D8651D997A9B0045A32B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441D8641D997A9B0045A32B /* AppDelegate.m */; };
 		3441D8681D997A9B0045A32B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3441D8671D997A9B0045A32B /* ViewController.m */; };
@@ -58,6 +63,16 @@
 		34097F191DA5502400872F6C /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.jpg; sourceTree = "<group>"; };
 		34097F1B1DA55A5300872F6C /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
 		34097F1C1DA55A5300872F6C /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		34343C3D1DABDD3E00C64729 /* NotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationView.h; sourceTree = "<group>"; };
+		34343C3E1DABDD3E00C64729 /* NotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationView.m; sourceTree = "<group>"; };
+		34343C401DABECC000C64729 /* ShoppingListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListTableViewController.h; sourceTree = "<group>"; };
+		34343C411DABECC000C64729 /* ShoppingListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListTableViewController.m; sourceTree = "<group>"; };
+		34343C431DABEEA200C64729 /* ShoppingItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingItemTableViewController.h; sourceTree = "<group>"; };
+		34343C441DABEEA200C64729 /* ShoppingItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemTableViewController.m; sourceTree = "<group>"; };
+		34343C461DABF6C000C64729 /* ShoppingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingList.h; sourceTree = "<group>"; };
+		34343C471DABF6C000C64729 /* ShoppingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingList.m; sourceTree = "<group>"; };
+		34343C491DABF80F00C64729 /* ShoppingListDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListDetailsViewController.h; sourceTree = "<group>"; };
+		34343C4A1DABF80F00C64729 /* ShoppingListDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListDetailsViewController.m; sourceTree = "<group>"; };
 		3441D85D1D997A9B0045A32B /* HoustonSeptember2016iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoustonSeptember2016iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3441D8611D997A9B0045A32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3441D8631D997A9B0045A32B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +178,21 @@
 			name = "TableView-And-CollectionView";
 			sourceTree = "<group>";
 		};
+		34343C3C1DABDC7100C64729 /* Week 3 */ = {
+			isa = PBXGroup;
+			children = (
+				34343C401DABECC000C64729 /* ShoppingListTableViewController.h */,
+				34343C411DABECC000C64729 /* ShoppingListTableViewController.m */,
+				34343C431DABEEA200C64729 /* ShoppingItemTableViewController.h */,
+				34343C441DABEEA200C64729 /* ShoppingItemTableViewController.m */,
+				34343C461DABF6C000C64729 /* ShoppingList.h */,
+				34343C471DABF6C000C64729 /* ShoppingList.m */,
+				34343C491DABF80F00C64729 /* ShoppingListDetailsViewController.h */,
+				34343C4A1DABF80F00C64729 /* ShoppingListDetailsViewController.m */,
+			);
+			name = "Week 3";
+			sourceTree = "<group>";
+		};
 		3441D8541D997A9B0045A32B = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +212,7 @@
 		3441D85F1D997A9B0045A32B /* HoustonSeptember2016iOS */ = {
 			isa = PBXGroup;
 			children = (
+				34343C3C1DABDC7100C64729 /* Week 3 */,
 				345F75FE1DA2AEBF00AA7D13 /* Week 2 */,
 				3441D8771D998E930045A32B /* Week 1 */,
 				3441D8631D997A9B0045A32B /* AppDelegate.h */,
@@ -304,6 +335,8 @@
 			children = (
 				34FD8C781DA80F9A00D2E43B /* GesturesViewController.h */,
 				34FD8C791DA80F9A00D2E43B /* GesturesViewController.m */,
+				34343C3D1DABDD3E00C64729 /* NotificationView.h */,
+				34343C3E1DABDD3E00C64729 /* NotificationView.m */,
 			);
 			name = "Gestures-Animations";
 			sourceTree = "<group>";
@@ -382,8 +415,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				348F7C981D9C143D007E5E30 /* Car.m in Sources */,
+				34343C3F1DABDD3E00C64729 /* NotificationView.m in Sources */,
 				3487881B1D9EB1B4008AD3A6 /* ThermostateViewController.m in Sources */,
 				34097F071DA3FA2800872F6C /* AnimalViewController.m in Sources */,
+				34343C481DABF6C000C64729 /* ShoppingList.m in Sources */,
 				344B88681D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.m in Sources */,
 				348F7C9B1D9C1657007E5E30 /* CarViewController.m in Sources */,
 				345F75FD1DA2AA5700AA7D13 /* Palindrome.m in Sources */,
@@ -391,13 +426,16 @@
 				34097F0D1DA401B600872F6C /* Pelican.m in Sources */,
 				348F7CA11D9C2AFC007E5E30 /* Person.m in Sources */,
 				34097F1D1DA55A5300872F6C /* MyCollectionViewController.m in Sources */,
+				34343C421DABECC000C64729 /* ShoppingListTableViewController.m in Sources */,
 				348F7C9E1D9C28B2007E5E30 /* Ferrari.m in Sources */,
 				34970E721DA57F90007418F6 /* Task.m in Sources */,
+				34343C451DABEEA200C64729 /* ShoppingItemTableViewController.m in Sources */,
 				348F7C951D9C0C06007E5E30 /* Assignment2ReviewViewController.m in Sources */,
 				34C6399B1DA6B1580001D8BF /* SwitchView.m in Sources */,
 				345F76041DA2B20100AA7D13 /* Reciple.m in Sources */,
 				3441D8681D997A9B0045A32B /* ViewController.m in Sources */,
 				34097F181DA54A6500872F6C /* GroceriesViewController.m in Sources */,
+				34343C4B1DABF80F00C64729 /* ShoppingListDetailsViewController.m in Sources */,
 				34097F041DA3F9FC00872F6C /* Cat.m in Sources */,
 				3476B19C1DA1F4A500EFD5BA /* PalindromReviewViewController.m in Sources */,
 				348F7CCE1D9C4A48007E5E30 /* Calculator.m in Sources */,

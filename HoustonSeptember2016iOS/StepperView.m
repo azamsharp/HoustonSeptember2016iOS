@@ -10,9 +10,14 @@
 
 @implementation StepperView
 
--(id) initWithFrame:(CGRect)frame {
+-(id) initWithCoder:(NSCoder *)aDecoder {
     
-    self = [super initWithFrame:frame];
+    self = [super initWithCoder:aDecoder];
+    [self setup];
+    return self;
+}
+
+-(void) setup {
     
     currentValue = 5;
     
@@ -38,7 +43,11 @@
     [self addSubview:minusButton];
     [self addSubview:label];
     [self addSubview:plusButton];
+}
+
+-(id) initWithFrame:(CGRect)frame {
     
+    self = [super initWithFrame:frame];
     return self;
 }
 
@@ -58,12 +67,13 @@
     [self.delegate stepperViewDidValueChanged:currentValue];
 }
 
-/*
+
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
     // Drawing code
+    
 }
-*/
+
 
 @end

@@ -17,32 +17,54 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIView *blueView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-    blueView.backgroundColor = [UIColor blueColor];
+//    notificationView = [[NotificationView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 100)];
+//    
+//    notificationView.backgroundColor = [UIColor blueColor];
+//    
+//    [self.view addSubview:notificationView];
     
-    [self.view addSubview:blueView];
+    UISwipeGestureRecognizer *swipeDown = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeDown:)];
+    swipeDown.direction = UISwipeGestureRecognizerDirectionDown;
+
+    [self.view addGestureRecognizer:swipeDown];
     
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
+//    UIView *blueView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+//    blueView.backgroundColor = [UIColor blueColor];
+//    
+//    [self.view addSubview:blueView];
+//    
+//    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
+//    
+//    UISwipeGestureRecognizer *swipeUp = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeUp:)];
+//    
+//    swipeUp.direction = UISwipeGestureRecognizerDirectionUp;
+//    
+//    [blueView addGestureRecognizer:tap];
+//    [blueView addGestureRecognizer:swipeUp];
+//    
+//    // animation
+//    [UIView animateWithDuration:5.0 animations:^{
+//       // code
+//        
+//        blueView.center = CGPointMake(100, 600);
+//        blueView.alpha = 0.0;
+//        
+//    }];
     
-    UISwipeGestureRecognizer *swipeUp = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeUp:)];
+}
+
+-(void) swipeDown:(UISwipeGestureRecognizer *) recognizer {
     
-    swipeUp.direction = UISwipeGestureRecognizerDirectionUp;
-    
-    [blueView addGestureRecognizer:tap];
-    [blueView addGestureRecognizer:swipeUp];
-    
-    // animation
-    [UIView animateWithDuration:5.0 animations:^{
-       // code
+    [UIView animateWithDuration:2.0 animations:^{
         
-        blueView.center = CGPointMake(100, 600);
-        blueView.alpha = 0.0;
-        
+         notificationView.center = CGPointMake(self.view.center.x, self.view.frame.size.height);
     }];
     
 }
 
 -(void) swipeUp:(id) sender {
+    
+    UISwipeGestureRecognizer *recognizer = (UISwipeGestureRecognizer *) sender;
     
     // casting the sender to the swipe gesture recognizer
     //UISwipeGestureRecognizer *swipe = (UISwipeGestureRecognizer *) sender;

@@ -14,6 +14,7 @@
 
 @end
 
+IB_DESIGNABLE
 @interface StepperView : UIView
 {
     UILabel *label;

@@ -16,12 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    StepperView *stepperView = [[StepperView alloc] initWithFrame:CGRectMake(50, 100, 300, 60)];
-    stepperView.delegate = self;
-    stepperView.backgroundColor = [UIColor greenColor];
-    
-    [self.view addSubview:stepperView];
+ 
+    GesturesViewController *g = [[GesturesViewController alloc]init];
     
     
 //    SwitchView *switchView = [[SwitchView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
