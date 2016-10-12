@@ -16,7 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    [[UIToolbar appearance] setBarTintColor:[UIColor greenColor]];
+    
+    
     return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {

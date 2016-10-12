@@ -1,21 +1,25 @@
 //
-//  ShoppingListDetailsViewController.m
+//  AddNewShoppingListViewController.m
 //  HoustonSeptember2016iOS
 //
-//  Created by Mohammad Azam on 10/10/16.
+//  Created by Mohammad Azam on 10/12/16.
 //  Copyright © 2016 Mohammad Azam. All rights reserved.
 //
 
-#import "ShoppingListDetailsViewController.h"
+#import "AddNewShoppingListViewController.h"
 
-@interface ShoppingListDetailsViewController ()
+@interface AddNewShoppingListViewController ()
 
 @end
 
-@implementation ShoppingListDetailsViewController
+@implementation AddNewShoppingListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor colorFromHexString:@"009FCE"];
+    
+    // self.toolbar.barTintColor = [UIColor greenColor];
     
 }
 

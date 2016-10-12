@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // changing the color of nav bar
+    self.navigationController.navigationBar.barTintColor = [UIColor redColor];
+    
+    ShoppingList *shoppingList1 = [[ShoppingList alloc] init];
+    shoppingList1.name = @"Kroger";
+    
+    [shoppingLists addObject:shoppingList1];
+    
 //    shoppingLists = [[NSMutableArray alloc] init];
 //    
 //    ShoppingList *kroger = [[ShoppingList alloc] init];
@@ -66,7 +74,7 @@
     
     ShoppingItemTableViewController *shoppingItemTableViewController =   segue.destinationViewController;
     
-    shoppingItemTableViewController.selectedShoppingList = shoppingList;
+  //  shoppingItemTableViewController.selectedShoppingList = shoppingList;
     
     // if using classes
     // shoppingItemTableViewController.selectedShoppingList = shoppingList; // where the shoppingList is an object of ShoppingList class
