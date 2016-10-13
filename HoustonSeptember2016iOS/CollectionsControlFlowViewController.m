@@ -30,7 +30,6 @@
     
     NSArray *numbers = [[NSArray alloc] init];
     
-    Car *car = [[Car alloc] init];
     
     NSMutableArray *alphabets = [[NSMutableArray alloc] init];
     [alphabets addObject:@"Alex"];

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ShoppingList : NSObject
+@interface ShoppingList : NSObject<NSCoding>
 {
     
 }

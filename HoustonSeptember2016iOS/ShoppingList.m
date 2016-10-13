@@ -10,4 +10,18 @@
 
 @implementation ShoppingList
 
+-(id) initWithCoder:(NSCoder *)aDecoder {
+    
+    self.name = [aDecoder decodeObjectForKey:@"name"];
+    
+    //self.name = (NSString *) [aDecoder valueForKey:@"name"];
+    return self;
+}
+
+-(void) encodeWithCoder:(NSCoder *)coder {
+    
+    [coder encodeObject:self.name forKey:@"name"];
+   // [coder setValue:self.name forKey:@"name"];
+}
+
 @end

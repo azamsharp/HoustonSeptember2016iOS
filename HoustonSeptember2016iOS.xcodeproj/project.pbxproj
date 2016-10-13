@@ -26,7 +26,6 @@
 		3441D86B1D997A9B0045A32B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3441D8691D997A9B0045A32B /* Main.storyboard */; };
 		3441D86D1D997A9B0045A32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3441D86C1D997A9B0045A32B /* Assets.xcassets */; };
 		3441D8701D997A9B0045A32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3441D86E1D997A9B0045A32B /* LaunchScreen.storyboard */; };
-		344B88681D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344B88671D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.m */; };
 		344B886B1D9D633900066270 /* CollectionsControlFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344B886A1D9D633900066270 /* CollectionsControlFlowViewController.m */; };
 		345F75FD1DA2AA5700AA7D13 /* Palindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 345F75FC1DA2AA5700AA7D13 /* Palindrome.m */; };
 		345F76011DA2AED500AA7D13 /* RoundRobinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345F76001DA2AED500AA7D13 /* RoundRobinViewController.m */; };
@@ -35,17 +34,14 @@
 		3487881B1D9EB1B4008AD3A6 /* ThermostateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3487881A1D9EB1B4008AD3A6 /* ThermostateViewController.m */; };
 		348A649C1DA2C097006A43C9 /* Incrediant.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A649B1DA2C097006A43C9 /* Incrediant.m */; };
 		348F7C951D9C0C06007E5E30 /* Assignment2ReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348F7C941D9C0C06007E5E30 /* Assignment2ReviewViewController.m */; };
-		348F7C981D9C143D007E5E30 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 348F7C971D9C143D007E5E30 /* Car.m */; };
-		348F7C9B1D9C1657007E5E30 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348F7C9A1D9C1657007E5E30 /* CarViewController.m */; };
-		348F7C9E1D9C28B2007E5E30 /* Ferrari.m in Sources */ = {isa = PBXBuildFile; fileRef = 348F7C9D1D9C28B2007E5E30 /* Ferrari.m */; };
-		348F7CA11D9C2AFC007E5E30 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 348F7CA01D9C2AFC007E5E30 /* Person.m */; };
-		348F7CCE1D9C4A48007E5E30 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 348F7CCD1D9C4A48007E5E30 /* Calculator.m */; };
 		34970E721DA57F90007418F6 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 34970E711DA57F90007418F6 /* Task.m */; };
 		34C639981DA6A8A00001D8BF /* CustomViewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C639971DA6A8A00001D8BF /* CustomViewsController.m */; };
 		34C6399B1DA6B1580001D8BF /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C6399A1DA6B1580001D8BF /* SwitchView.m */; };
 		34F01F981DAE947B00907219 /* AddNewShoppingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F01F971DAE947B00907219 /* AddNewShoppingListViewController.m */; };
 		34F01F9B1DAE976100907219 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F01F9A1DAE976100907219 /* UIColor+Additions.m */; };
 		34F01F9F1DAE999000907219 /* NSUserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F01F9E1DAE999000907219 /* NSUserDefaultsViewController.m */; };
+		34F01FA31DAFD36500907219 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F01FA21DAFD36500907219 /* SplashScreenViewController.m */; };
+		34F01FA61DAFDA4100907219 /* ArchiveUnArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F01FA51DAFDA4100907219 /* ArchiveUnArchiveViewController.m */; };
 		34FD8C761DA807C900D2E43B /* StepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD8C751DA807C900D2E43B /* StepperView.m */; };
 		34FD8C7A1DA80F9A00D2E43B /* GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD8C791DA80F9A00D2E43B /* GesturesViewController.m */; };
 /* End PBXBuildFile section */
@@ -86,8 +82,6 @@
 		3441D86C1D997A9B0045A32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3441D86F1D997A9B0045A32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3441D8711D997A9B0045A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		344B88661D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassesObjectsAssignmentReviewViewController.h; sourceTree = "<group>"; };
-		344B88671D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassesObjectsAssignmentReviewViewController.m; sourceTree = "<group>"; };
 		344B88691D9D633900066270 /* CollectionsControlFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsControlFlowViewController.h; sourceTree = "<group>"; };
 		344B886A1D9D633900066270 /* CollectionsControlFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsControlFlowViewController.m; sourceTree = "<group>"; };
 		345F75FB1DA2AA5700AA7D13 /* Palindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palindrome.h; sourceTree = "<group>"; };
@@ -104,16 +98,6 @@
 		348A649B1DA2C097006A43C9 /* Incrediant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Incrediant.m; sourceTree = "<group>"; };
 		348F7C931D9C0C06007E5E30 /* Assignment2ReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment2ReviewViewController.h; sourceTree = "<group>"; };
 		348F7C941D9C0C06007E5E30 /* Assignment2ReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment2ReviewViewController.m; sourceTree = "<group>"; };
-		348F7C961D9C143D007E5E30 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
-		348F7C971D9C143D007E5E30 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
-		348F7C991D9C1657007E5E30 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
-		348F7C9A1D9C1657007E5E30 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
-		348F7C9C1D9C28B2007E5E30 /* Ferrari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ferrari.h; sourceTree = "<group>"; };
-		348F7C9D1D9C28B2007E5E30 /* Ferrari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ferrari.m; sourceTree = "<group>"; };
-		348F7C9F1D9C2AFC007E5E30 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		348F7CA01D9C2AFC007E5E30 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		348F7CCC1D9C4A48007E5E30 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
-		348F7CCD1D9C4A48007E5E30 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		34970E701DA57F90007418F6 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		34970E711DA57F90007418F6 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		34C639961DA6A8A00001D8BF /* CustomViewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewsController.h; sourceTree = "<group>"; };
@@ -126,6 +110,10 @@
 		34F01F9A1DAE976100907219 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
 		34F01F9D1DAE999000907219 /* NSUserDefaultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultsViewController.h; sourceTree = "<group>"; };
 		34F01F9E1DAE999000907219 /* NSUserDefaultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultsViewController.m; sourceTree = "<group>"; };
+		34F01FA11DAFD36500907219 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		34F01FA21DAFD36500907219 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		34F01FA41DAFDA4100907219 /* ArchiveUnArchiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveUnArchiveViewController.h; sourceTree = "<group>"; };
+		34F01FA51DAFDA4100907219 /* ArchiveUnArchiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveUnArchiveViewController.m; sourceTree = "<group>"; };
 		34FD8C741DA807C900D2E43B /* StepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperView.h; sourceTree = "<group>"; };
 		34FD8C751DA807C900D2E43B /* StepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperView.m; sourceTree = "<group>"; };
 		34FD8C781DA80F9A00D2E43B /* GesturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturesViewController.h; sourceTree = "<group>"; };
@@ -190,6 +178,7 @@
 		34343C3C1DABDC7100C64729 /* Week 3 */ = {
 			isa = PBXGroup;
 			children = (
+				34F01FA01DAFCC7400907219 /* ArchiveAndUnArchive */,
 				34F01F9C1DAE997600907219 /* NSUserDefaults-Lecture */,
 				34F01F991DAE976100907219 /* UIColor+Additions.h */,
 				34F01F9A1DAE976100907219 /* UIColor+Additions.m */,
@@ -304,18 +293,6 @@
 		348F7C921D9C09CF007E5E30 /* Classes-Objects */ = {
 			isa = PBXGroup;
 			children = (
-				348F7C961D9C143D007E5E30 /* Car.h */,
-				348F7C971D9C143D007E5E30 /* Car.m */,
-				348F7C991D9C1657007E5E30 /* CarViewController.h */,
-				348F7C9A1D9C1657007E5E30 /* CarViewController.m */,
-				348F7C9C1D9C28B2007E5E30 /* Ferrari.h */,
-				348F7C9D1D9C28B2007E5E30 /* Ferrari.m */,
-				348F7C9F1D9C2AFC007E5E30 /* Person.h */,
-				348F7CA01D9C2AFC007E5E30 /* Person.m */,
-				348F7CCC1D9C4A48007E5E30 /* Calculator.h */,
-				348F7CCD1D9C4A48007E5E30 /* Calculator.m */,
-				344B88661D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.h */,
-				344B88671D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.m */,
 			);
 			name = "Classes-Objects";
 			sourceTree = "<group>";
@@ -351,6 +328,17 @@
 				34F01F9E1DAE999000907219 /* NSUserDefaultsViewController.m */,
 			);
 			name = "NSUserDefaults-Lecture";
+			sourceTree = "<group>";
+		};
+		34F01FA01DAFCC7400907219 /* ArchiveAndUnArchive */ = {
+			isa = PBXGroup;
+			children = (
+				34F01FA11DAFD36500907219 /* SplashScreenViewController.h */,
+				34F01FA21DAFD36500907219 /* SplashScreenViewController.m */,
+				34F01FA41DAFDA4100907219 /* ArchiveUnArchiveViewController.h */,
+				34F01FA51DAFDA4100907219 /* ArchiveUnArchiveViewController.m */,
+			);
+			name = ArchiveAndUnArchive;
 			sourceTree = "<group>";
 		};
 		34FD8C771DA80F7C00D2E43B /* Gestures-Animations */ = {
@@ -437,22 +425,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348F7C981D9C143D007E5E30 /* Car.m in Sources */,
 				34343C3F1DABDD3E00C64729 /* NotificationView.m in Sources */,
 				3487881B1D9EB1B4008AD3A6 /* ThermostateViewController.m in Sources */,
 				34097F071DA3FA2800872F6C /* AnimalViewController.m in Sources */,
 				34343C481DABF6C000C64729 /* ShoppingList.m in Sources */,
-				344B88681D9D5AE200066270 /* ClassesObjectsAssignmentReviewViewController.m in Sources */,
 				34F01F9F1DAE999000907219 /* NSUserDefaultsViewController.m in Sources */,
-				348F7C9B1D9C1657007E5E30 /* CarViewController.m in Sources */,
 				345F75FD1DA2AA5700AA7D13 /* Palindrome.m in Sources */,
 				34FD8C761DA807C900D2E43B /* StepperView.m in Sources */,
 				34097F0D1DA401B600872F6C /* Pelican.m in Sources */,
-				348F7CA11D9C2AFC007E5E30 /* Person.m in Sources */,
 				34F01F981DAE947B00907219 /* AddNewShoppingListViewController.m in Sources */,
 				34097F1D1DA55A5300872F6C /* MyCollectionViewController.m in Sources */,
 				34343C421DABECC000C64729 /* ShoppingListTableViewController.m in Sources */,
-				348F7C9E1D9C28B2007E5E30 /* Ferrari.m in Sources */,
 				34970E721DA57F90007418F6 /* Task.m in Sources */,
 				34343C451DABEEA200C64729 /* ShoppingItemTableViewController.m in Sources */,
 				348F7C951D9C0C06007E5E30 /* Assignment2ReviewViewController.m in Sources */,
@@ -460,16 +443,17 @@
 				345F76041DA2B20100AA7D13 /* Reciple.m in Sources */,
 				3441D8681D997A9B0045A32B /* ViewController.m in Sources */,
 				34097F181DA54A6500872F6C /* GroceriesViewController.m in Sources */,
+				34F01FA31DAFD36500907219 /* SplashScreenViewController.m in Sources */,
 				34343C4B1DABF80F00C64729 /* ShoppingListDetailsViewController.m in Sources */,
 				34097F041DA3F9FC00872F6C /* Cat.m in Sources */,
 				3476B19C1DA1F4A500EFD5BA /* PalindromReviewViewController.m in Sources */,
-				348F7CCE1D9C4A48007E5E30 /* Calculator.m in Sources */,
 				3441D8651D997A9B0045A32B /* AppDelegate.m in Sources */,
 				344B886B1D9D633900066270 /* CollectionsControlFlowViewController.m in Sources */,
 				345F76011DA2AED500AA7D13 /* RoundRobinViewController.m in Sources */,
 				34F01F9B1DAE976100907219 /* UIColor+Additions.m in Sources */,
 				34C639981DA6A8A00001D8BF /* CustomViewsController.m in Sources */,
 				34097F0A1DA4017800872F6C /* Bird.m in Sources */,
+				34F01FA61DAFDA4100907219 /* ArchiveUnArchiveViewController.m in Sources */,
 				34FD8C7A1DA80F9A00D2E43B /* GesturesViewController.m in Sources */,
 				34097F011DA3F9E100872F6C /* Animal.m in Sources */,
 				3441D8621D997A9B0045A32B /* main.m in Sources */,
