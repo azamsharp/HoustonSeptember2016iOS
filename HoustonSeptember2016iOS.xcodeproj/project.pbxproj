@@ -30,6 +30,10 @@
 		345F75FD1DA2AA5700AA7D13 /* Palindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 345F75FC1DA2AA5700AA7D13 /* Palindrome.m */; };
 		345F76011DA2AED500AA7D13 /* RoundRobinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345F76001DA2AED500AA7D13 /* RoundRobinViewController.m */; };
 		345F76041DA2B20100AA7D13 /* Reciple.m in Sources */ = {isa = PBXBuildFile; fileRef = 345F76031DA2B20100AA7D13 /* Reciple.m */; };
+		345FBD481DB52CD1003F9165 /* UIKitDynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345FBD471DB52CD1003F9165 /* UIKitDynamicsViewController.m */; };
+		34737A121DB51E5E00BBFEC1 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34737A111DB51E5E00BBFEC1 /* ContainerViewController.m */; };
+		34737A151DB51FFE00BBFEC1 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34737A141DB51FFE00BBFEC1 /* BlueViewController.m */; };
+		34737A181DB5200A00BBFEC1 /* OrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34737A171DB5200A00BBFEC1 /* OrangeViewController.m */; };
 		3476B19C1DA1F4A500EFD5BA /* PalindromReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3476B19B1DA1F4A500EFD5BA /* PalindromReviewViewController.m */; };
 		3487881B1D9EB1B4008AD3A6 /* ThermostateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3487881A1D9EB1B4008AD3A6 /* ThermostateViewController.m */; };
 		348A649C1DA2C097006A43C9 /* Incrediant.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A649B1DA2C097006A43C9 /* Incrediant.m */; };
@@ -90,6 +94,14 @@
 		345F76001DA2AED500AA7D13 /* RoundRobinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRobinViewController.m; sourceTree = "<group>"; };
 		345F76021DA2B20100AA7D13 /* Reciple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reciple.h; sourceTree = "<group>"; };
 		345F76031DA2B20100AA7D13 /* Reciple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reciple.m; sourceTree = "<group>"; };
+		345FBD461DB52CD1003F9165 /* UIKitDynamicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitDynamicsViewController.h; sourceTree = "<group>"; };
+		345FBD471DB52CD1003F9165 /* UIKitDynamicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitDynamicsViewController.m; sourceTree = "<group>"; };
+		34737A101DB51E5E00BBFEC1 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		34737A111DB51E5E00BBFEC1 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		34737A131DB51FFE00BBFEC1 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		34737A141DB51FFE00BBFEC1 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		34737A161DB5200A00BBFEC1 /* OrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeViewController.h; sourceTree = "<group>"; };
+		34737A171DB5200A00BBFEC1 /* OrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeViewController.m; sourceTree = "<group>"; };
 		3476B19A1DA1F4A500EFD5BA /* PalindromReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromReviewViewController.h; sourceTree = "<group>"; };
 		3476B19B1DA1F4A500EFD5BA /* PalindromReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalindromReviewViewController.m; sourceTree = "<group>"; };
 		348788191D9EB1B4008AD3A6 /* ThermostateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThermostateViewController.h; sourceTree = "<group>"; };
@@ -215,6 +227,7 @@
 		3441D85F1D997A9B0045A32B /* HoustonSeptember2016iOS */ = {
 			isa = PBXGroup;
 			children = (
+				34737A0E1DB5183C00BBFEC1 /* Week 4 */,
 				34343C3C1DABDC7100C64729 /* Week 3 */,
 				345F75FE1DA2AEBF00AA7D13 /* Week 2 */,
 				3441D8771D998E930045A32B /* Week 1 */,
@@ -277,6 +290,37 @@
 				34097EC71DA31D7900872F6C /* ClassReview */,
 			);
 			name = "Week 2";
+			sourceTree = "<group>";
+		};
+		345FBD451DB52CBD003F9165 /* UIKitDynamicsLecture */ = {
+			isa = PBXGroup;
+			children = (
+				345FBD461DB52CD1003F9165 /* UIKitDynamicsViewController.h */,
+				345FBD471DB52CD1003F9165 /* UIKitDynamicsViewController.m */,
+			);
+			name = UIKitDynamicsLecture;
+			sourceTree = "<group>";
+		};
+		34737A0E1DB5183C00BBFEC1 /* Week 4 */ = {
+			isa = PBXGroup;
+			children = (
+				345FBD451DB52CBD003F9165 /* UIKitDynamicsLecture */,
+				34737A0F1DB5184300BBFEC1 /* ViewControllerContainment */,
+			);
+			name = "Week 4";
+			sourceTree = "<group>";
+		};
+		34737A0F1DB5184300BBFEC1 /* ViewControllerContainment */ = {
+			isa = PBXGroup;
+			children = (
+				34737A101DB51E5E00BBFEC1 /* ContainerViewController.h */,
+				34737A111DB51E5E00BBFEC1 /* ContainerViewController.m */,
+				34737A131DB51FFE00BBFEC1 /* BlueViewController.h */,
+				34737A141DB51FFE00BBFEC1 /* BlueViewController.m */,
+				34737A161DB5200A00BBFEC1 /* OrangeViewController.h */,
+				34737A171DB5200A00BBFEC1 /* OrangeViewController.m */,
+			);
+			name = ViewControllerContainment;
 			sourceTree = "<group>";
 		};
 		3476B1991DA1F47200EFD5BA /* Week1-Assignments */ = {
@@ -436,6 +480,7 @@
 				34F01F981DAE947B00907219 /* AddNewShoppingListViewController.m in Sources */,
 				34097F1D1DA55A5300872F6C /* MyCollectionViewController.m in Sources */,
 				34343C421DABECC000C64729 /* ShoppingListTableViewController.m in Sources */,
+				34737A151DB51FFE00BBFEC1 /* BlueViewController.m in Sources */,
 				34970E721DA57F90007418F6 /* Task.m in Sources */,
 				34343C451DABEEA200C64729 /* ShoppingItemTableViewController.m in Sources */,
 				348F7C951D9C0C06007E5E30 /* Assignment2ReviewViewController.m in Sources */,
@@ -445,6 +490,7 @@
 				34097F181DA54A6500872F6C /* GroceriesViewController.m in Sources */,
 				34F01FA31DAFD36500907219 /* SplashScreenViewController.m in Sources */,
 				34343C4B1DABF80F00C64729 /* ShoppingListDetailsViewController.m in Sources */,
+				34737A121DB51E5E00BBFEC1 /* ContainerViewController.m in Sources */,
 				34097F041DA3F9FC00872F6C /* Cat.m in Sources */,
 				3476B19C1DA1F4A500EFD5BA /* PalindromReviewViewController.m in Sources */,
 				3441D8651D997A9B0045A32B /* AppDelegate.m in Sources */,
@@ -455,9 +501,11 @@
 				34097F0A1DA4017800872F6C /* Bird.m in Sources */,
 				34F01FA61DAFDA4100907219 /* ArchiveUnArchiveViewController.m in Sources */,
 				34FD8C7A1DA80F9A00D2E43B /* GesturesViewController.m in Sources */,
+				34737A181DB5200A00BBFEC1 /* OrangeViewController.m in Sources */,
 				34097F011DA3F9E100872F6C /* Animal.m in Sources */,
 				3441D8621D997A9B0045A32B /* main.m in Sources */,
 				348A649C1DA2C097006A43C9 /* Incrediant.m in Sources */,
+				345FBD481DB52CD1003F9165 /* UIKitDynamicsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

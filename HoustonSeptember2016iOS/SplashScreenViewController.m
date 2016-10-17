@@ -42,9 +42,6 @@
         [UIView animateWithDuration:5.0 animations:^{
             self.welcomeMessageLabel.alpha = 0.0;
             
-            
-            
-            
         }];
         
     }];
