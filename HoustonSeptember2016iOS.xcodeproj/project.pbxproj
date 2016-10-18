@@ -26,6 +26,8 @@
 		3441D86B1D997A9B0045A32B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3441D8691D997A9B0045A32B /* Main.storyboard */; };
 		3441D86D1D997A9B0045A32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3441D86C1D997A9B0045A32B /* Assets.xcassets */; };
 		3441D8701D997A9B0045A32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3441D86E1D997A9B0045A32B /* LaunchScreen.storyboard */; };
+		34449C6C1DB6805800002948 /* CustomCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34449C6B1DB6805800002948 /* CustomCellTableViewController.m */; };
+		34449C6F1DB6813500002948 /* MyCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34449C6E1DB6813500002948 /* MyCustomTableViewCell.m */; };
 		344B886B1D9D633900066270 /* CollectionsControlFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344B886A1D9D633900066270 /* CollectionsControlFlowViewController.m */; };
 		345F75FD1DA2AA5700AA7D13 /* Palindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 345F75FC1DA2AA5700AA7D13 /* Palindrome.m */; };
 		345F76011DA2AED500AA7D13 /* RoundRobinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345F76001DA2AED500AA7D13 /* RoundRobinViewController.m */; };
@@ -86,6 +88,10 @@
 		3441D86C1D997A9B0045A32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3441D86F1D997A9B0045A32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3441D8711D997A9B0045A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34449C6A1DB6805800002948 /* CustomCellTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewController.h; sourceTree = "<group>"; };
+		34449C6B1DB6805800002948 /* CustomCellTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewController.m; sourceTree = "<group>"; };
+		34449C6D1DB6813500002948 /* MyCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomTableViewCell.h; sourceTree = "<group>"; };
+		34449C6E1DB6813500002948 /* MyCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomTableViewCell.m; sourceTree = "<group>"; };
 		344B88691D9D633900066270 /* CollectionsControlFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionsControlFlowViewController.h; sourceTree = "<group>"; };
 		344B886A1D9D633900066270 /* CollectionsControlFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionsControlFlowViewController.m; sourceTree = "<group>"; };
 		345F75FB1DA2AA5700AA7D13 /* Palindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palindrome.h; sourceTree = "<group>"; };
@@ -269,6 +275,17 @@
 			name = IBOutletsAndActions;
 			sourceTree = "<group>";
 		};
+		34449C691DB67FD600002948 /* Custom-Cells */ = {
+			isa = PBXGroup;
+			children = (
+				34449C6A1DB6805800002948 /* CustomCellTableViewController.h */,
+				34449C6B1DB6805800002948 /* CustomCellTableViewController.m */,
+				34449C6D1DB6813500002948 /* MyCustomTableViewCell.h */,
+				34449C6E1DB6813500002948 /* MyCustomTableViewCell.m */,
+			);
+			name = "Custom-Cells";
+			sourceTree = "<group>";
+		};
 		3452611D1D9AB9DB007DECE5 /* DataTypes-Methods */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +321,7 @@
 		34737A0E1DB5183C00BBFEC1 /* Week 4 */ = {
 			isa = PBXGroup;
 			children = (
+				34449C691DB67FD600002948 /* Custom-Cells */,
 				345FBD451DB52CBD003F9165 /* UIKitDynamicsLecture */,
 				34737A0F1DB5184300BBFEC1 /* ViewControllerContainment */,
 			);
@@ -477,6 +495,7 @@
 				345F75FD1DA2AA5700AA7D13 /* Palindrome.m in Sources */,
 				34FD8C761DA807C900D2E43B /* StepperView.m in Sources */,
 				34097F0D1DA401B600872F6C /* Pelican.m in Sources */,
+				34449C6C1DB6805800002948 /* CustomCellTableViewController.m in Sources */,
 				34F01F981DAE947B00907219 /* AddNewShoppingListViewController.m in Sources */,
 				34097F1D1DA55A5300872F6C /* MyCollectionViewController.m in Sources */,
 				34343C421DABECC000C64729 /* ShoppingListTableViewController.m in Sources */,
@@ -496,6 +515,7 @@
 				3441D8651D997A9B0045A32B /* AppDelegate.m in Sources */,
 				344B886B1D9D633900066270 /* CollectionsControlFlowViewController.m in Sources */,
 				345F76011DA2AED500AA7D13 /* RoundRobinViewController.m in Sources */,
+				34449C6F1DB6813500002948 /* MyCustomTableViewCell.m in Sources */,
 				34F01F9B1DAE976100907219 /* UIColor+Additions.m in Sources */,
 				34C639981DA6A8A00001D8BF /* CustomViewsController.m in Sources */,
 				34097F0A1DA4017800872F6C /* Bird.m in Sources */,
