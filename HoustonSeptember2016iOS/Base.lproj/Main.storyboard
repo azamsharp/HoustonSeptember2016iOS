@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B4e-Tp-hvW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jM8-gw-bDu">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -562,6 +562,90 @@
             </objects>
             <point key="canvasLocation" x="-7287" y="277"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Tx0-9m-qCa">
+            <objects>
+                <viewController id="cMA-89-Rwf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KkL-Dx-h7b"/>
+                        <viewControllerLayoutGuide type="bottom" id="JYS-p2-RhE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ooU-iM-2xd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MLZ-dZ-v6D">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLt-SR-Eag">
+                                        <color key="backgroundColor" red="0.1176470588" green="0.60392156860000001" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjQ-zh-sXV">
+                                        <color key="backgroundColor" red="1" green="1" blue="0.2890362836" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCl-SU-uLS">
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.33333333329999998" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MLZ-dZ-v6D" firstAttribute="leading" secondItem="ooU-iM-2xd" secondAttribute="leading" id="Hgf-FL-DgF"/>
+                            <constraint firstAttribute="trailing" secondItem="MLZ-dZ-v6D" secondAttribute="trailing" id="V85-3v-gUa"/>
+                            <constraint firstItem="JYS-p2-RhE" firstAttribute="top" secondItem="MLZ-dZ-v6D" secondAttribute="bottom" id="aMD-Y8-xhP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tg1-am-n5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13844" y="-904"/>
+        </scene>
+        <!--Autolayout View Controller-->
+        <scene sceneID="zQQ-aO-UOo">
+            <objects>
+                <viewController id="jM8-gw-bDu" customClass="AutolayoutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9bz-H5-qdD"/>
+                        <viewControllerLayoutGuide type="bottom" id="vw4-2g-OfW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1xK-PJ-SWT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LTA-Io-c0s">
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.33333333329999998" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JKG-uO-uIT">
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9In-4c-g14">
+                                <color key="backgroundColor" red="1" green="0.44070460560000002" blue="0.89761599430000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vw4-2g-OfW" firstAttribute="top" secondItem="9In-4c-g14" secondAttribute="bottom" id="1Kj-9O-O2c"/>
+                            <constraint firstItem="9In-4c-g14" firstAttribute="height" secondItem="JKG-uO-uIT" secondAttribute="height" id="A6y-Uj-f69"/>
+                            <constraint firstItem="LTA-Io-c0s" firstAttribute="leading" secondItem="1xK-PJ-SWT" secondAttribute="leading" id="ETn-yP-DqS"/>
+                            <constraint firstItem="JKG-uO-uIT" firstAttribute="top" secondItem="LTA-Io-c0s" secondAttribute="bottom" id="MbU-jQ-uMF"/>
+                            <constraint firstItem="JKG-uO-uIT" firstAttribute="leading" secondItem="1xK-PJ-SWT" secondAttribute="leading" id="Tgn-Fh-bkq"/>
+                            <constraint firstItem="LTA-Io-c0s" firstAttribute="top" secondItem="9bz-H5-qdD" secondAttribute="bottom" id="aJb-jE-Leo"/>
+                            <constraint firstAttribute="trailing" secondItem="LTA-Io-c0s" secondAttribute="trailing" id="iQe-Cn-NG0"/>
+                            <constraint firstItem="JKG-uO-uIT" firstAttribute="height" secondItem="LTA-Io-c0s" secondAttribute="height" id="kca-cT-OYH"/>
+                            <constraint firstItem="9In-4c-g14" firstAttribute="top" secondItem="JKG-uO-uIT" secondAttribute="bottom" id="meI-Xn-AoN"/>
+                            <constraint firstAttribute="trailing" secondItem="9In-4c-g14" secondAttribute="trailing" id="nF3-qc-lR1"/>
+                            <constraint firstAttribute="trailing" secondItem="JKG-uO-uIT" secondAttribute="trailing" id="tsX-o9-TZF"/>
+                            <constraint firstItem="9In-4c-g14" firstAttribute="leading" secondItem="1xK-PJ-SWT" secondAttribute="leading" id="zZE-7j-dgs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jXP-Kc-72C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12967" y="-904"/>
+        </scene>
         <!--Custom Cell Table View Controller-->
         <scene sceneID="KcX-2H-ttq">
             <objects>
@@ -575,7 +659,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="180"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NMj-5t-TQa" id="PP6-RX-fFA">
-                                    <frame key="frameInset" width="375" height="179"/>
+                                    <frame key="frameInset" width="375" height="180"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRn-94-4rU">
